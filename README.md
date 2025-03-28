@@ -14,6 +14,7 @@ The primary goal of this research is to understand the complex dynamics of the N
 
 ## Repository Structure
 
+```bash
 neptune_triton_thesis/
 ├── src/
 │   ├── r2bp_calculations.py       # Two-body simulation: Triton orbiting Neptune
@@ -35,7 +36,7 @@ neptune_triton_thesis/
 ├── old/                           # Archived test/unused code
 ├── README.md                      # Master README (this file)
 └── LICENSE                        # License file (if applicable)
-
+```
 
 ## Getting Started
 
@@ -50,3 +51,93 @@ neptune_triton_thesis/
 To install the dependencies, run:
 ```bash
 pip install numpy scipy matplotlib sympy
+```
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/neptune_triton_thesis.git
+cd neptune_triton_thesis
+```
+
+## Running the Simulations
+
+Each core component of the thesis has its own script in the `src/` directory. To run each simulation, use the following commands:
+
+1. **Restricted Two-Body Problem (R2BP):**
+```bash
+python src/r2bp_calculations.py
+```
+
+2. **Restricted Three-Body Problem (RTBP):**
+```bash
+python src/r3bp_calculations.py
+```
+
+3. **Jacobi Constant Calculation:**
+```bash
+python src/jacobi_constant.py
+```
+
+4. **Lagrange Points:**
+```bash
+python src/lagrange_points.py
+```
+
+5. **Zero-Velocity Curves:**
+```bash
+python src/zero_velocity_curves.py
+```
+
+6. **Stability Analysis:**
+```bash
+python src/stability_lagrange.py
+```
+
+## Documentation
+
+For detailed explanations of the methods, equations, and processes used in this project, please refer to the documentation in the `/docs` folder:
+
+- [R2BP Documentation](docs/r2bp_calculations.md)
+- [RTBP Documentation](docs/r3bp_calculations.md)
+- [Jacobi Constant](docs/jacobi_constant.md)
+- [Lagrange Points](docs/lagrange_points.md)
+- [Zero-Velocity Curves](docs/zero_velocity_curves.md)
+- [Stability Analysis](docs/stability_lagrange.md)
+
+## Future Work
+
+- Create and analyze satellite orbits around the L4 point
+- Refine simulation parameters and initial conditions.
+- Extend the stability analysis to include eigenvector visualizations.
+- Develop 3D visualizations of zero-velocity surfaces.
+- Compare analytical models with numerical simulation results.
+- Explore additional scenarios in the Neptune–Triton system.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Submit a pull request.
+
+Please follow the existing code style and include tests or examples where appropriate.
+
+<!--
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+-->
+
+## Contact
+
+For questions, feedback, or collaboration opportunities, please contact:
+
+- **Blake T Johnson**
+- Email: blake.t.johnson-1@ou.edu
+- [LinkedIn](https://www.linkedin.com/in/blaketjohnson/)
+
+
+
