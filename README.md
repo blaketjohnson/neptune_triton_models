@@ -99,12 +99,12 @@ python src/stability_lagrange.py
 
 For detailed explanations of the methods, equations, and processes used in this project, please refer to the documentation in the `/docs` folder:
 
-- [R2BP Documentation](docs/r2bp_calculations.md)
-- [RTBP Documentation](docs/r3bp_calculations.md)
-- [Jacobi Constant](docs/jacobi_constant.md)
-- [Lagrange Points](docs/lagrange_points.md)
-- [Zero-Velocity Curves](docs/zero_velocity_curves.md)
-- [Stability Analysis](docs/stability_lagrange.md)
+- [R2BP Documentation](docs/r2bp_calculations_01.md)
+- [RTBP Documentation](docs/r3bp_calculations_02.md)
+- [Jacobi Constant](docs/jacobi_contant_03.md)
+- [Lagrange Points](/docs/lagrange_points_04.md)
+- [Zero-Velocity Curves](docs/zero_velocity_curves_05.md)
+- [Stability Analysis](docs/stability_lagrange_06.md)
 
 ## Future Work
 
