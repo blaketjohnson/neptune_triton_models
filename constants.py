@@ -21,6 +21,7 @@ R1_m = R1 * 10**3  # Radius in meters
 a1_au = 30.06896348  # Semi-major axis in AU
 e1 = 0.00858587  # Eccentricity
 I0_1 = 1.76917  # Inclination in degrees
+SOI_neptune = 86600000  # Sphere of influence in km
 
 # Triton
 m2 = 2.15e22  # Mass in kg
