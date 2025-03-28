@@ -13,3 +13,40 @@ The primary goal of this research is to understand the complex dynamics of the N
 - Analyzing the stability of the Lagrange points through eigenvalue analysis.
 
 ## Repository Structure
+
+neptune_triton_thesis/
+├── src/
+│   ├── r2bp_calculations.py       # Two-body simulation: Triton orbiting Neptune
+│   ├── r3bp_calculations.py       # Three-body simulation: RTBP in the rotating frame
+│   ├── jacobi_constant.py         # Jacobi constant calculator
+│   ├── lagrange_points.py         # L1–L5 Lagrange point solver & plotter
+│   ├── zero_velocity_curves.py    # Contour plots for Jacobi-based forbidden regions
+│   ├── stability_lagrange.py      # Eigenvalue analysis of Lagrange point stability
+│   ├── constants.py               # Neptune/Triton system constants
+│   ├── equations.py               # Motion equations and integration methods
+│   └── U_derivatives.py           # Symbolic partial derivatives of effective potential
+├── docs/
+│   ├── r2bp_calculations.md
+│   ├── r3bp_calculations.md
+│   ├── jacobi_constant.md
+│   ├── lagrange_points.md
+│   ├── zero_velocity_curves.md
+│   └── stability_lagrange.md
+├── old/                           # Archived test/unused code
+├── README.md                      # Master README (this file)
+└── LICENSE                        # License file (if applicable)
+
+
+## Getting Started
+
+### Prerequisites
+- **Python 3.8+** (using a virtual environment is recommended)
+- The following Python libraries:
+  - NumPy
+  - SciPy
+  - Matplotlib
+  - SymPy
+
+To install the dependencies, run:
+```bash
+pip install numpy scipy matplotlib sympy
